@@ -23,7 +23,7 @@ export function Footer() {
             alt="Dr. Nishanth S"
             width={280}
             height={86}
-            className="h-auto w-auto"
+            style={{ width: "auto", height: "auto", maxWidth: "280px" }}
           />
         </div>
         <div>

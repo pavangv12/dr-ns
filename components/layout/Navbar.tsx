@@ -25,8 +25,13 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/60 bg-white/70 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6" aria-label="Main navigation">
-        <Link href="/" aria-label="Dr. Nishanth S Home">
-          <Image src="/logo-full.png" alt="Dr. Nishanth S" width={280} height={86} style={{ width: "auto", height: "auto", maxWidth: "280px" }} priority />
+        <Link href="/" aria-label="Dr. Nishanth S Home" className="flex items-center gap-3">
+          <Image src="/logo-icon.png" alt="Dr. Nishanth S" width={50} height={50} className="h-auto w-auto" priority />
+          <div className="hidden sm:block">
+            <p className="text-lg font-bold text-slate-900 leading-tight">Dr. Nishanth S</p>
+            <p className="text-sm text-slate-700">Consultant Urologist</p>
+            <p className="text-xs text-slate-500">Uro-Oncology &nbsp;·&nbsp; Robotic Surgery &nbsp;·&nbsp; Renal Transplant</p>
+          </div>
         </Link>
 
         <div className="hidden items-center gap-5 md:flex">
