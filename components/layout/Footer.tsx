@@ -18,23 +18,15 @@ export function Footer() {
     <footer className="mt-20 border-t border-slate-200 bg-white/80">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3 md:px-6">
         <div>
-          <div className="inline-flex items-center gap-3">
-            <Image
-              src="/logo-icon.png"
-              alt="Dr. Nishanth S icon"
-              width={40}
-              height={40}
-              className="h-auto w-auto"
-            />
-            <Image
-              src="/logo-full.png"
-              alt="Dr. Nishanth S"
-              width={210}
-              height={65}
-              className="h-auto w-auto"
-            />
-          </div>
-          <p className="mt-2 text-sm text-slate-600">Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon</p>
+          <Image
+            src="/logo-icon.png"
+            alt="Dr. Nishanth S"
+            width={60}
+            height={60}
+            className="h-auto w-auto"
+          />
+          <p className="mt-4 text-sm font-medium text-slate-800">Dr. Nishanth S</p>
+          <p className="mt-1 text-xs text-slate-600">Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon</p>
         </div>
         <div>
           <h3 className="font-semibold text-[var(--color-text)]">Quick Links</h3>
