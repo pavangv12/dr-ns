@@ -19,14 +19,12 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3 md:px-6">
         <div>
           <Image
-            src="/logo-icon.png"
+            src="/logo-full.png"
             alt="Dr. Nishanth S"
-            width={60}
-            height={60}
+            width={280}
+            height={86}
             className="h-auto w-auto"
           />
-          <p className="mt-4 text-sm font-medium text-slate-800">Dr. Nishanth S</p>
-          <p className="mt-1 text-xs text-slate-600">Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon</p>
         </div>
         <div>
           <h3 className="font-semibold text-[var(--color-text)]">Quick Links</h3>
