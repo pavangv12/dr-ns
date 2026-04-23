@@ -32,6 +32,23 @@ export const metadata: Metadata = {
     description:
       "Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon at Kauvery Hospital Marathahalli.",
     type: "website",
+    url: SITE_URL,
+    siteName: "Dr. Nishanth S - Urologist",
+    images: [
+      {
+        url: "/dr-nishanth.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dr. Nishanth S - Consultant Urologist",
+        type: "image/jpeg",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr. Nishanth S | Consultant Urologist",
+    description:
+      "Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon at Kauvery Hospital Marathahalli.",
     images: ["/dr-nishanth.jpg"],
   },
   icons: { icon: "/favicon.png" },
