@@ -22,34 +22,33 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Dr. Nishanth S | Consultant Urologist",
+    default: "Dr. Nishanth S | Expert Urologist & Robotic Surgeon",
     template: "%s | Dr. Nishanth S",
   },
   description:
-    "Professional medical portfolio of Dr. Nishanth S, Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon.",
+    "Trusted Consultant Urologist & Uro-Oncologist at Kauvery Hospital Marathahalli, Bengaluru. Expert in Robotic Surgery and Renal Transplant. Book your consultation today.",
   openGraph: {
-    title: "Dr. Nishanth S | Consultant Urologist",
+    title: "Dr. Nishanth S | Expert Urologist & Robotic Surgeon",
     description:
-      "Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon at Kauvery Hospital Marathahalli.",
+      "Trusted Consultant Urologist & Uro-Oncologist at Kauvery Hospital Marathahalli, Bengaluru. Expert in Robotic Surgery and Renal Transplant. Book your consultation today.",
     type: "website",
     url: SITE_URL,
     siteName: "Dr. Nishanth S - Urologist",
     images: [
       {
-        url: "/dr-nishanth.jpg",
+        url: "/api/og",
         width: 1200,
         height: 630,
-        alt: "Dr. Nishanth S - Consultant Urologist",
-        type: "image/jpeg",
+        alt: "Dr. Nishanth S - Consultant Urologist, Robotic Surgeon, Kauvery Hospital Bengaluru",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Nishanth S | Consultant Urologist",
+    title: "Dr. Nishanth S | Expert Urologist & Robotic Surgeon",
     description:
-      "Consultant Urologist, Uro-Oncologist, Robotic & Renal Transplant Surgeon at Kauvery Hospital Marathahalli.",
-    images: ["/dr-nishanth.jpg"],
+      "Trusted Consultant Urologist & Uro-Oncologist at Kauvery Hospital Marathahalli, Bengaluru. Expert in Robotic Surgery and Renal Transplant. Book your consultation today.",
+    images: ["/api/og"],
   },
   icons: { icon: "/favicon.png" },
 };
