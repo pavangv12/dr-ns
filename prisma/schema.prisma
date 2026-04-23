@@ -1,0 +1,71 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ReviewSource {
+  MANUAL
+  GOOGLE
+}
+
+enum ReviewStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model Review {
+  id              String       @id @default(cuid())
+  authorName      String
+  authorPhoto     String?
+  rating          Int
+  text            String
+  source          ReviewSource
+  googleReviewId  String?      @unique
+  status          ReviewStatus
+  publishToGoogle Boolean      @default(false)
+  googlePosted    Boolean      @default(false)
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+}
+
+model DoctorProfile {
+  id             String   @id @default(cuid())
+  name           String
+  title          String
+  hospital       String
+  qualifications String
+  languages      String
+  mapLink        String
+  phone          String
+  email          String
+  address        String
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Expertise {
+  id        String   @id @default(cuid())
+  title     String
+  createdAt DateTime @default(now())
+}
+
+model Procedure {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String
+  createdAt   DateTime @default(now())
+}
+
+model Publication {
+  id        String   @id @default(cuid())
+  title     String
+  journal   String
+  dateLabel String
+  createdAt DateTime @default(now())
+}

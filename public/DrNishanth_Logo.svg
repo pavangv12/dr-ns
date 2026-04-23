@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" width="820" height="260">
+
+  <!-- White background -->
+  <rect width="820" height="260" fill="#ffffff"/>
+
+  <!-- ── SHIELD BODY ── -->
+  <!-- Outer shield -->
+  <path d="M100 30 L220 30 L234 62 L234 148
+           Q234 202 160 224
+           Q86 202 86 148 L86 62 Z"
+        fill="#0B5FA5"/>
+
+  <!-- Inner shield layer for depth -->
+  <path d="M110 44 L210 44 L222 72 L222 146
+           Q222 192 160 212
+           Q98 192 98 146 L98 72 Z"
+        fill="#0D6BBF"/>
+
+  <!-- Caduceus staff — vertical center line -->
+  <line x1="160" y1="62" x2="160" y2="200"
+        stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Caduceus crossbar (top) -->
+  <line x1="140" y1="82" x2="180" y2="82"
+        stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Wing left -->
+  <path d="M160 58 Q142 50 136 58" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- Wing right -->
+  <path d="M160 58 Q178 50 184 58" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Snake left wrap -->
+  <path d="M160 88  Q148 82  148 92  Q148 102 160 98"  fill="none" stroke="#C8933A" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M160 108 Q172 102 172 112 Q172 122 160 118" fill="none" stroke="#C8933A" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M160 128 Q148 122 148 132 Q148 142 160 138" fill="none" stroke="#C8933A" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M160 152 Q172 146 172 156 Q172 166 160 162" fill="none" stroke="#C8933A" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- N letter — left half of shield -->
+  <text x="102" y="182"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="68" font-weight="700"
+        fill="#ffffff" letter-spacing="-2">N</text>
+
+  <!-- S letter — right half, teal -->
+  <text x="155" y="182"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="68" font-weight="700"
+        fill="#1B9C85" letter-spacing="-2">S</text>
+
+  <!-- Shield bottom tip gold accent dot -->
+  <circle cx="160" cy="222" r="5" fill="#C8933A"/>
+
+  <!-- ── DIVIDER LINE ── -->
+  <line x1="258" y1="40" x2="258" y2="220"
+        stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- ── TEXT BLOCK ── -->
+  <!-- Dr. Nishanth S — main name -->
+  <text x="290" y="100"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="48" font-weight="700"
+        fill="#0B5FA5" letter-spacing="0.5">Dr. Nishanth S</text>
+
+  <!-- Gold rule under name -->
+  <rect x="290" y="112" width="500" height="2.5" rx="1" fill="#C8933A"/>
+
+  <!-- Designation line 1 -->
+  <text x="292" y="142"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18" font-weight="600"
+        fill="#1B9C85" letter-spacing="3">CONSULTANT UROLOGIST</text>
+
+  <!-- Designation line 2 -->
+  <text x="292" y="168"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14" fill="#64748b" letter-spacing="2">URO-ONCOLOGY  ·  ROBOTIC SURGERY  ·  RENAL TRANSPLANT</text>
+
+  <!-- Hospital line -->
+  <text x="292" y="194"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13" fill="#94a3b8" letter-spacing="1.5">KAUVERY HOSPITAL, MARATHAHALLI, BENGALURU</text>
+
+  <!-- Credential badges -->
+  <rect x="292" y="208" width="108" height="24" rx="12" fill="#EFF6FF" stroke="#0B5FA5" stroke-width="1"/>
+  <text x="346" y="224" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10" font-weight="700"
+        fill="#0B5FA5" letter-spacing="0.5">DrNB · MS · MBBS</text>
+
+  <rect x="410" y="208" width="156" height="24" rx="12" fill="#F0FDF4" stroke="#1B9C85" stroke-width="1"/>
+  <text x="488" y="224" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10" font-weight="700"
+        fill="#1B9C85" letter-spacing="0.5">World Endourology Fellow</text>
+
+</svg>
